@@ -16,10 +16,15 @@ End the program
 ## Program:
 
 #Program to find the solution for the given linear equations.
+
 #Developed by: monesh s
+
 #RegisterNumber:212225040256
+
 import os
+
 os.environ["OPENBLAS_NUM_THREADS"]="1"
+
 import numpy as np
 
 A = np.array([[1, 3],
